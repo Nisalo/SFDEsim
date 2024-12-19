@@ -1,0 +1,34 @@
+{
+    "subjects":{
+        "Introduction to Electrical Power Systems":{
+            "Voltage drop and losses":{
+                "filename": "Voltage_drop_simulation.py",
+                "abstract": "This simulation represents a load connected to grid with a powerline in static operation.\nUser can change grid, load and line model parameters to see how voltages and currents of\nthe system are affected."
+            },
+            "Short circuit":{
+                "filename": "Short_circuit_simulation.py",
+                "abstract": "This simulation represents a symmetric 3-phase fault in powerline and how supplying\ngenerator reacts to the fault. User can change pre-fault conditions, generator and line model\nparameters, create fault and observe system currents"
+            }
+        },
+        "Introduction to Electrical Drives":{
+            "Induction motor":{
+                "filename":"Induction_motor_simulation.py",
+                "abstract":"This simulation represents electromechanics of induction motor.\nMotor can be accelerated to some speed with given acceleration. This will cause motor power,\ntorque and current to change over time"
+            },
+            "Frequency converter":{
+                "filename": "Frequency_converter_simulation.py",
+                "abstract": "This simulation shows how 3-phase AC voltage is created from DC voltage using inverter\nThe simulator shows how the frequency converter is modulated and what type of current and\nvoltage it will output and how will the load filter and mudulation parameters change that."
+            }
+        },
+        "Examples and testing":{
+            "Reference frame simulation":{
+                "filename": "Reference_frame_simulation.py",
+                "abstract": "This simulation shows 3-phase system transformed to alpha-beta and d-q frames."
+            },
+            "Spring-Mass-Damper simulation":{
+                "filename": "Spring_mass_damper_simulation.py",
+                "abstract": "Simulation showing a behaviour of spring-mass-damper system.\nThe simulation is performed using RK4, trapezoidal approximation and forward Euler methods\nand can also be used to compare the accuracy of these solver methods."
+            }
+        }
+    }
+}
